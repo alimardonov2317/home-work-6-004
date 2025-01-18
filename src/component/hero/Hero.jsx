@@ -11,7 +11,7 @@ const Hero = () => {
     const genderRef = useRef(null)
     const bioRef = useRef(null)
     const [data, setData] = useState([])
-    const [edit, setEdit] = useState([null])
+    const [edit, setEdit] = useState(null)
 
     const handleCreate = e => {
         e.preventDefault()
